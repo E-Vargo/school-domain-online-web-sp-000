@@ -24,7 +24,7 @@ end
 #@roster[num]
 #end
 
-def sort(@roster)
+def sort
 
   @roster[grade].collect do |a|
     a.sort
