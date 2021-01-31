@@ -25,7 +25,7 @@ end
 #end
 
 def sort(grade)
-@roster.sort_by {|key, value| key, value}
+@roster.sort_by {|key, value| key}
 end
 
 
