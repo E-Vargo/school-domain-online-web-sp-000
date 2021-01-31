@@ -20,9 +20,9 @@ def add_student(new_student, grade)
     end
 end
 
-#def grade(num)
-#@roster[num]
-#end
+def grade(num)
+@roster[num]
+end
 
 def sort
   @roster.each do |key, value|
