@@ -25,11 +25,9 @@ end
 #end
 
 def sort
-
-  @roster[grade].collect do |a|
-    a.sort
+  @roster.each do |key, value|
+    value.sort!
   end
-@roster.sort_by {|key, value| value}.to_h
 end
 
 
