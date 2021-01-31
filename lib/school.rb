@@ -25,7 +25,7 @@ end
 #end
 
 def sort(@roster)
-  grade = []
+  
   @roster[grade].collect do |a|
     a.sort
   end
