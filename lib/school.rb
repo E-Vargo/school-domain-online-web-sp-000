@@ -7,7 +7,7 @@ def initialize(name)
   @name = name
   @roster = {}
 end
-  @roster[grade] = []
+  
 def add_student(new_student, grade)
   if  @roster == {}
       @roster[grade] = []
