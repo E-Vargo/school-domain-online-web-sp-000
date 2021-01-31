@@ -25,7 +25,7 @@ end
 #end
 
 def sort
-  @roster.collect do |a|
+  @roster[].collect do |a|
     a.sort
   end
 @roster.sort_by {|key, value| value}.to_h
