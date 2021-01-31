@@ -24,7 +24,7 @@ end
 #@roster[num]
 #end
 
-def sort(grade)
+def sort
 @roster.sort_by {|key, value| key}
 end
 
