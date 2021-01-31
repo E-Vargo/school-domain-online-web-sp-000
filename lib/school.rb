@@ -25,7 +25,7 @@ end
 #end
 
 def sort
-if
+@roster[].sort
 end
 
 
