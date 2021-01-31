@@ -25,7 +25,7 @@ end
 #end
 
 def sort
-@roster.sort_by {|key, value| key}.to_h
+@roster.sort_by {|key, value| key, value}.to_h
 end
 
 
