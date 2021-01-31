@@ -8,14 +8,13 @@ def initialize(name)
   @roster = {}
 end
 
-def add_student(new_student, grade)
-  if  @roster == {}
-      @roster[grade] = []
-      @roster[grade] << new_student
-  else
-    @roster[grade] = [new_student]
-    end
-end
+def add_student(name, grade)
+   if @roster[grade] != nil
+     @roster[grade] << name
+   else
+     @roster[grade] = [name]
+   end
+ end
 
 def grade(num)
 @roster[num]
